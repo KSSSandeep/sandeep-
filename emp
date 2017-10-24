@@ -27,16 +27,8 @@ public class Employee {
      this.id=id;
      this.name=name;
      this.dob=dob;
- }
-public String getid(){
-    return this.id;
+
 }
-public String getname(){
-    return this.name;
-}   
-public String getdob(){
-    return this.dob;
-}
-}
+
     
 
