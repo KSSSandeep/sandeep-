@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package employee_gui;
+
+/**
+ *
+ * @author Krishna Sai
+ */
+
+public class Employee {
+ 
+ private String id;
+ private String name;
+ private String dob;
+ 
+ public Employee(){
+     
+ }
+ public Employee(String id){
+     this.id = id;
+ }
+ public Employee(String id,String name,String dob){
+     this.id=id;
+     this.name=name;
+     this.dob=dob;
+ }
+public String getid(){
+    return this.id;
+}
+public String getname(){
+    return this.name;
+}   
+public String getdob(){
+    return this.dob;
+}
+}
+    
+
